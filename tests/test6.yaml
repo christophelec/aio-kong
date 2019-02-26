@@ -28,3 +28,9 @@ services:
             config:
               status_code: 403
               message: requires authentication
+          - name: request-termination
+            consumer:
+              id: an-xxxx-test
+            config:
+              status_code: 403
+              message: requires authentication
